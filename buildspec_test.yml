@@ -7,7 +7,7 @@ phases:
   pre_build:
     commands:
       - cd ./my-app
-      - echo Installing npm packages...
+      - echo Installing npm packages....
       - npm install
   build:
     commands:
