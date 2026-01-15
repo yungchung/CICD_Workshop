@@ -39,11 +39,11 @@ export class PipelineCdkStack extends Stack {
       actions: [
         new codepipeline_actions.CodeStarConnectionsSourceAction({
           actionName: 'GitHub',
-          owner: 'yung-chung_onh',
+          owner: 'yungchung',
           repo: 'CICD_Workshop',
           output: sourceOutput,
           branch: 'main',
-          connectionArn: 'arn:aws:codeconnections:us-east-1:510029933899:connection/4bba7af4-3f00-4261-a59a-be82a566e745',
+          connectionArn: 'arn:aws:codeconnections:us-east-1:510029933899:connection/71f0182b-5ff3-4787-ab2d-1a8db030aec8',
         }),
       ],
     });
