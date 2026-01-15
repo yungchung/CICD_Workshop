@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest",
+    "test:junit": "vitest run --reporter=junit --outputFile=test-results.xml",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
