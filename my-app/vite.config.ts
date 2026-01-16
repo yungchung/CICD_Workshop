@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     host: true,
     port: 8081,
-    allowedHosts: ['all'],
+    allowedHosts: 'all',
   },
   test: {
     globals: true,
